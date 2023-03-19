@@ -46,7 +46,6 @@ print (meervoudig(invoer_lijst))
 print()
 
 def combinatie(invoer_lijst_2):
-    korte_lijst=meervoudig(invoer_lijst_2)
-    return mijn_functie_2(korte_lijst)
-
-#Bij de laatste opgave van het huiswerk van les 8 (regels 48 t/m 50) vond ik het vrij lastig om te weten wat ik aan het doen was. Het lukte mij ook niet om een uitvoer te creëren zodat ik mijn code kon controleren.
+    korte_lijst=laag_en_hoog(invoer_lijst_2)
+    uitvoer=mijn_functie_2(korte_lijst[0], korte_lijst[1])
+    return uitvoer
